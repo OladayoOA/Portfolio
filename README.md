@@ -23,6 +23,7 @@ A reporting project focused on identifying fulfillment delays, shipment exceptio
 - Power BI
 - Power Query
 - DAX
+- Tableau
 - PYTHON
 - R
 - SQL
