@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oladayo Oyenuga | Inventory & Logistics Analytics Portfolio</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #152238;
+      --muted: #5f6b7a;
+      --accent: #1d4ed8;
+      --accent-light: #dbeafe;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container { max-width: 1100px; margin: 0 auto; padding: 28px; }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1d4ed8);
+      color: white;
+      padding: 58px 28px;
+    }
+    header .container { padding-top: 0; padding-bottom: 0; }
+    h1 { font-size: 44px; margin: 0 0 10px; letter-spacing: -1px; }
+    h2 { font-size: 28px; margin-top: 0; border-bottom: 2px solid var(--border); padding-bottom: 10px; }
+    h3 { margin-bottom: 8px; }
+    .subtitle { font-size: 20px; margin-bottom: 18px; opacity: .95; }
+    .contact { font-size: 15px; opacity: .95; }
+    .hero-summary { max-width: 850px; font-size: 17px; margin-top: 24px; }
+    .btn-row { margin-top: 26px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn {
+      display: inline-block;
+      padding: 11px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      background: white;
+      color: #1d4ed8;
+    }
+    .btn.secondary { background: rgba(255,255,255,.14); color: white; border: 1px solid rgba(255,255,255,.35); }
+    section { margin: 34px 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      box-shadow: 0 8px 20px rgba(15,23,42,.04);
+    }
+    .tag { display: inline-block; background: var(--accent-light); color: var(--accent); padding: 5px 10px; border-radius: 999px; font-size: 13px; font-weight: bold; margin: 4px 6px 4px 0; }
+    .muted { color: var(--muted); }
+    ul { padding-left: 20px; }
+    .project-title { color: var(--accent); }
+    .metric-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+    .metric { background: #eef4ff; border-radius: 12px; padding: 18px; border: 1px solid #cfe0ff; }
+    .metric strong { font-size: 26px; display: block; color: #0f172a; }
+    footer { text-align: center; color: var(--muted); padding: 30px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Oladayo Oyenuga</h1>
+      <div class="subtitle">Inventory & Logistics Coordinator | ERP Inventory Analytics | Order Fulfillment & Carrier Coordination</div>
+      <div class="contact">Michigan • (313) 290-0703 • Oyenugaoladayoadewale01@gmail.com</div>
+      <p class="hero-summary">
+        Inventory and logistics professional with 5+ years of experience supporting order fulfillment, inventory visibility, ERP-driven workflows, shipment tracking, and operational reporting across logistics, warehouse, service, and data-focused environments. Strong background in Excel, Power BI, SQL, ERP reporting, shipment analysis, inventory movement, service-level monitoring, and cross-functional issue resolution.
+      </p>
+      <div class="btn-row">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn secondary" href="mailto:Oyenugaoladayoadewale01@gmail.com">Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Portfolio Focus</h2>
+      <div class="metric-row">
+        <div class="metric"><strong>5+ yrs</strong><span>Inventory, logistics, ERP and analytics experience</span></div>
+        <div class="metric"><strong>Power BI</strong><span>Dashboards for stock, service risk and operational reporting</span></div>
+        <div class="metric"><strong>ERP</strong><span>Inventory records, order flow, shipment tracking and data accuracy</span></div>
+        <div class="metric"><strong>SQL + Excel</strong><span>Trend analysis, KPI reporting and operational insights</span></div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Portfolio Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3 class="project-title">Inventory Reorder Forecast Dashboard</h3>
+          <p><strong>Business Problem:</strong> Businesses need to know which products are likely to run out of stock before customer orders are affected.</p>
+          <p><strong>Solution:</strong> Built a Power BI dashboard concept that tracks stock levels, average usage, lead time, days until stockout, reorder dates and high-risk items.</p>
+          <p><strong>Tools:</strong> Power BI, Power Query, DAX, Excel, SQL</p>
+          <p><strong>Business Value:</strong> Improves replenishment planning, reduces stockout risk and supports better inventory purchasing decisions.</p>
+          <span class="tag">Power BI</span><span class="tag">Inventory</span><span class="tag">Forecasting</span><span class="tag">ERP</span>
+        </div>
+        <div class="card">
+          <h3 class="project-title">Inventory Ageing & Slow-Moving Stock Report</h3>
+          <p><strong>Business Problem:</strong> Old and slow-moving stock ties up cash and creates warehouse space issues.</p>
+          <p><strong>Solution:</strong> Designed reporting logic to classify stock by last movement date, ageing band, stock value, supplier and product category.</p>
+          <p><strong>Tools:</strong> Power BI, Excel, SQL, ERP data</p>
+          <p><strong>Business Value:</strong> Helps operations and purchasing teams identify dead stock, reduce waste and improve stock visibility.</p>
+          <span class="tag">Stock Ageing</span><span class="tag">Slow Moving Stock</span><span class="tag">Reporting</span>
+        </div>
+        <div class="card">
+          <h3 class="project-title">Shipment Volume & Service-Level Dashboard</h3>
+          <p><strong>Business Problem:</strong> Operations teams need visibility into shipment volume, service-level risks and delivery bottlenecks.</p>
+          <p><strong>Solution:</strong> Created an Excel/Power BI dashboard concept to monitor shipment trends, carrier performance, exceptions, late deliveries and lane performance.</p>
+          <p><strong>Tools:</strong> Excel, Power BI, ERP shipment data</p>
+          <p><strong>Business Value:</strong> Supports faster issue investigation, better carrier coordination and improved customer commitment tracking.</p>
+          <span class="tag">Logistics</span><span class="tag">Carrier Coordination</span><span class="tag">KPI Dashboard</span>
+        </div>
+        <div class="card">
+          <h3 class="project-title">Order Fulfillment Exception Tracker</h3>
+          <p><strong>Business Problem:</strong> Fulfillment delays and allocation exceptions can disrupt customer orders and internal planning.</p>
+          <p><strong>Solution:</strong> Built a reporting framework to track order status, allocation issues, stock shortages, shipment exceptions and resolution ownership.</p>
+          <p><strong>Tools:</strong> Excel, SQL, ERP reporting, Power BI</p>
+          <p><strong>Business Value:</strong> Improves operational follow-up, strengthens issue resolution and reduces fulfillment disruption.</p>
+          <span class="tag">Order Fulfillment</span><span class="tag">Exceptions</span><span class="tag">Operations</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+      <div class="card">
+        <h3>RXO — Logistics Specialist <span class="muted">| July 2025 - Present</span></h3>
+        <ul>
+          <li>Analyze shipment volumes, service levels and lane performance trends to support order flow and inventory planning.</li>
+          <li>Investigate delivery bottlenecks affecting customer commitments and order execution timelines.</li>
+          <li>Develop Excel dashboards to visualize demand patterns, service risks and operational opportunities.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>OP Mobility — Inventory Operations Support Analyst <span class="muted">| Jan 2025 - June 2025</span></h3>
+        <ul>
+          <li>Tracked inventory movement, stock levels and inbound/outbound activity to reduce stock imbalance risk.</li>
+          <li>Coordinated shipment execution between customers, carriers and warehouse teams.</li>
+          <li>Maintained ERP inventory transactions and shipment records for reporting and audit readiness.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>ProCare Nursing — ERP & Data Systems Analyst <span class="muted">| 2020 - 2024</span></h3>
+        <ul>
+          <li>Built automated Power BI dashboards and reports to monitor demand patterns and service-level risks.</li>
+          <li>Prepared weekly operational reports and trend analysis for leadership review.</li>
+          <li>Used Pivot Tables, VLOOKUP, SUMIF and data validation to investigate operational exceptions.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Multichoice Group LTD — Customer Insights & Data Analyst <span class="muted">| 2013 - 2020</span></h3>
+        <ul>
+          <li>Built Power BI inventory dashboards including reorder forecast, inventory ageing and slow-moving stock reports.</li>
+          <li>Conducted sales, usage and service trend analysis across multiple regions.</li>
+          <li>Managed inventory records, shipment tracking and reconciliation of stock movement discrepancies.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Inventory & Logistics</h3>
+          <span class="tag">Inventory Control</span><span class="tag">Stock Visibility</span><span class="tag">Order Fulfillment</span><span class="tag">Shipment Tracking</span><span class="tag">Carrier Coordination</span><span class="tag">Warehouse Support</span>
+        </div>
+        <div class="card">
+          <h3>Analytics & Reporting</h3>
+          <span class="tag">Power BI</span><span class="tag">Power Query</span><span class="tag">SQL</span><span class="tag">Excel Dashboards</span><span class="tag">KPI Reporting</span><span class="tag">Trend Analysis</span>
+        </div>
+        <div class="card">
+          <h3>Systems & Tools</h3>
+          <span class="tag">Intact iQ</span><span class="tag">Indigo Pro</span><span class="tag">NetSuite</span><span class="tag">QuickBooks</span><span class="tag">SAP Familiarity</span><span class="tag">SharePoint</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="card">
+        <p><strong>MSc Data Science</strong> — Cardiff Metropolitan University, United Kingdom, 2020–2022</p>
+        <p><strong>BTech Pure and Applied Physics</strong> — Ladoke Akintola University of Technology, Nigeria, 2008–2013</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="card">
+        <p><strong>Email:</strong> <a href="mailto:Oyenugaoladayoadewale01@gmail.com">Oyenugaoladayoadewale01@gmail.com</a></p>
+        <p><strong>Phone:</strong> (313) 290-0703</p>
+        <p><strong>Location:</strong> Michigan</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Oladayo Oyenuga. Portfolio built for inventory, logistics, ERP analytics and operational reporting roles.
+  </footer>
+</body>
+</html>
